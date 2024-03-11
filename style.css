@@ -1,0 +1,130 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(71, 49, 39);
+}
+header {
+    display: flex;
+}
+.picture1{
+    
+    width: 25px;
+    height: auto;
+    margin: 10px 10px 0px 30px;
+}
+header ul {
+    display: flex;
+    width: 100%;
+}
+header li {
+    width: 50%;
+    list-style: none;
+    padding: 10px 5px;
+    
+}
+header a{
+    transition: all 1.0s ease;
+    text-decoration: none;
+    color: rgb(150, 150, 150);
+    display: block;
+    
+}
+header a:hover{
+    color: rgb(189, 189, 41);
+    font-size: large;
+    font-weight: 900;
+}
+@media  screen and (max-width: 668px){
+    header ul{
+        font-size: small;
+    }
+}
+main {
+    margin-left: 5%;
+    width: 60% ;
+    color: white;
+}
+main ul{
+    display: flex;
+    
+}
+main li{
+    transition: all 1.0s ease;
+    margin-left: -50%;
+    list-style: none;
+    padding: 5px 15px;
+    border-radius: 2px;
+    border-color: darkgoldenrod;
+    margin: 10%;
+    background-color: blueviolet;
+    width: 50%;
+    box-shadow: 10px 10px 0px rgb(0, 0, 0,0.45);
+}
+main li:hover{
+    transform: rotate(10deg);
+    box-shadow: 15px 15px 10px rgb(0, 0, 0,1.5);
+    color: rgb(87, 0, 87);
+}
+main a{
+    display: flex;
+    text-decoration: none;
+
+}
+main p {
+    margin-top: auto;
+}
+.picture2 {
+    height: auto;
+    width: 20px;
+    margin-right: 15px;
+}
+.picture3 {
+    width: 50%;
+    
+    margin-left: 40%;
+    object-fit: cover;
+}
+main .b1{
+    display: inline-block;
+}
+@media  screen and (max-width: 868px){
+    main .b2{
+        display: block;
+        height: 80%;
+        margin: auto;
+    }
+    .picture4 {
+        display: none;
+    }
+}
+main div{
+    display: flex;
+
+}
+.picture4{
+    width: 40%;
+    object-fit: cover;
+    margin: 20px;
+}
+main .b3{
+    display: flex;
+}
+.b3 div{
+    
+    box-shadow: 10px 10px 0px rgb(0, 0, 0,0.45);
+    display: inline;
+    padding: 2%;
+    margin: 35px;
+    background-color: brown;
+    transition: all 1.0s ease;
+    transform-style: all 1.0s ease;
+}
+.b3 div:hover{
+    transform: rotate(370deg);
+    color: rgb(199, 187, 83);
+    
+}
+/*
+@media  screen and (min-width: 768px) and (max-width: 1023px) {
+    
+}*/
